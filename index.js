@@ -40,3 +40,25 @@ function erasetable() {
     //Verificacion mediante consola que se ha borrado
     console.log(document.getElementsByTagName('table'));
 }
+
+
+//Exercici 2
+//Creacio matriuBinaria, de 0 y 1
+function matriuBinaria(matrix) {
+    var matrix2 = [];
+    for (var i = 0; i < matrix.length; i++) {
+        var columna = [];
+        for (var j = 0; j < matrix[i].length; j++) {
+            if (matrix[i][j].style.backgroundColor == "red") {
+                columna.push(1);
+            } else {
+                columna.push(0);
+            }
+        }
+        matrix2.push(columna);
+    }
+    return matrix2;
+    console.log("matriu", matrix2);
+}
+
+function pintar0i1(matriuBinari)

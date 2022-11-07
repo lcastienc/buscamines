@@ -1,9 +1,9 @@
 table {
-    border: 5px solid red;
-    background-color: black;
+    border: 5px solid white;
+    background-color: white;
 }
 
 td {
     padding: 25px;
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
